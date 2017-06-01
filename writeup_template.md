@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 [image2]: ./examples/recovery_start.jpg "Recovery Start"
 [image3]: ./examples/recovery_middle.jpg "Recovery Middle"
 [image4]: ./examples/recovery_end.jpg "Recovery End"
-[image5]: ./examples/recovery_end.jpg "Normal Image"
+[image5]: ./examples/noflip.jpg "Normal Image"
 [image6]: ./examples/flip.jpg "Flipped Image"
 
 ### Files Submitted & Code Quality
@@ -41,7 +41,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model is exactly Nvidia architecture for self-driving cars [link](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/)
+My model is exactly Nvidia architecture for self-driving cars ([link](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/))
 It consists of a convolution neural network with 5x5 and 3x3 filter sizes and depths between 24 and 64 (model.py lines 61-65) 
 
 The model includes RELU layers to introduce nonlinearity, and the data is normalized in the model using a Keras lambda layer (code line 59).
