@@ -11,9 +11,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/udacity_example.jpg "Udacity Example"
-[image2]: ./examples/recovery_start.jpg "Recovery Image"
-[image3]: ./examples/recovery_middle.jpg "Recovery Image"
-[image4]: ./examples/recovery_end.jpg "Recovery Image"
+[image2]: ./examples/recovery_start.jpg "Recovery Start"
+[image3]: ./examples/recovery_middle.jpg "Recovery Middle"
+[image4]: ./examples/recovery_end.jpg "Recovery End"
 [image5]: ./examples/recovery_end.jpg "Normal Image"
 [image6]: ./examples/flip.jpg "Flipped Image"
 
