@@ -18,8 +18,13 @@ train_samples, validation_samples = train_test_split(samples, test_size=0.2)
 correction = 0.1
 
 
-# Using Keras generator for optimization
 def generator(samples, batch_size=32):
+    """
+    Using Keras generator for optimization
+    :param samples: sample images
+    :param batch_size: batch size
+    :return: yeild next portion of images
+    """
     num_samples = len(samples)
     while 1:
         shuffle(samples)
